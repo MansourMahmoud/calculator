@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+}
+
+.notes{
+    color: #f00;
+    text-align: center;
+    padding: 20px;
+    font-size: 10px;
+}
+
+.myinput {
+  padding: 10px 28px 10px 25px;
+  margin: 0px 0 25px 0;
+  font-size: 40px;
+  border: inset;
+  color: #e91e63;
+  border-radius: 35px 10px;
+}
+.myinput::placeholder{
+    font-size: 30px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 97vh;
+}
+.container-all {
+  border: 3px solid #4a2093;
+  padding: 35px;
+  border-radius: 55px 10px;
+  box-shadow: inset 0px 0px 25px 0px;
+  background-color: #fff;
+}
+.container-all:hover {
+  background: #5dccdd;
+  transition: 0.5s ease;
+}
+.btns-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background: aqua;
+  border: 2px solid #23ff177a;
+  padding: 9px 15px;
+  border-radius: 15px 10px;
+  cursor: pointer;
+  width: 6rem;
+  margin: 2px 0px;
+  font-weight: bold;
+  color: #e91e63;
+  font-size: 20px;
+}
+button:hover {
+  background: aquamarine;
+  transform: scale(1.2);
+}
+.style-remove-btn {
+  background: tomato;
+  color: white;
+}
+.style-remove-btn:hover {
+  background: tomato;
+  color: white;
+}
+.style-calculation-btns {
+  background: antiquewhite;
+  color: rgb(0, 0, 0);
+}
+.style-calculation-btns:hover {
+  background: antiquewhite;
+}
+.style-my-equal {
+  background: springgreen;
+  color: black;
+}
+.style-my-equal:hover {
+  background: springgreen;
+}
+.style-btn-back {
+  background: #ff0049;
+  color: #f1d8ed;
+}
+.style-btn-back:hover {
+  background: #ff0049;
+}
+
+.group-5 {
+  margin: 0 18.6rem 0 0;
+}
